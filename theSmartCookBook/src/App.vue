@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
-
+<SignIn></SignIn>
     <!-- wstawic do poszczegolnych komponentow home-->
 
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -16,7 +16,7 @@
   </form>
       </li>
       <li class="nav-item">
-         <a class="nav-link" href="#">SIGN IN</a>
+         <a class="nav-link" href="/theSmartCookBook/src/views/SignIn.html">SIGN IN</a>
       </li>
        <li class="nav-item">
          <a class="nav-link" href="#">SIGN UP</a>
@@ -53,20 +53,7 @@
 <!--koniec-->
 
 <!-- wstawic do poszczegolnych komponentow login-->
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Username</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-   <div class="form-group">
-       <label for="exampleInputPassword1">Nie pamietasz hasła?</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<SignIn/>
 <!--koniec-->
 
 <!-- wstawic do poszczegolnych komponentow registration-->
