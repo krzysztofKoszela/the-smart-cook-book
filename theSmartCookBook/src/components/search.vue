@@ -1,11 +1,11 @@
 <template>
   <div>
-  menu
+  search
   </div>
 </template>
 
 <script>
 export default {
-  name: 'menu-component'
+  name: 'search-component'
 }
 </script>

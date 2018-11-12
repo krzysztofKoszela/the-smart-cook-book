@@ -1,5 +1,4 @@
-<SignIn></SignIn>
-    <!-- wstawic do poszczegolnych komponentow home
+
 
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -42,34 +41,6 @@
   </ul>
 </nav>
 
-
-    <!--koniec-->
-
-<!-- wstawic do poszczegolnych komponentow user profile-->
-
-<!--koniec-->
-
-<!-- wstawic do poszczegolnych komponentow login-->
-<SignIn/>
-<!--koniec-->
-
-<!-- wstawic do poszczegolnych komponentow registration-->
-<form>
-    <div class="form-group">
-    <label for="exampleInputPassword1">Username</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Username">
-  </div>
-    <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<!--koniec-->
 
 <!-- wstawic do poszczegolnych komponentow user profile-->
 <h3>Krzysztof Koszela</h3>

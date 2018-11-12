@@ -1,11 +1,11 @@
 <template>
   <div>
-  menu
+  recipe
   </div>
 </template>
 
 <script>
 export default {
-  name: 'menu-component'
+  name: 'recipe-component'
 }
 </script>

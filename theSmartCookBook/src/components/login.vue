@@ -1,4 +1,7 @@
-<form action="action_page.php">
+<template>
+  <div>
+
+ <form action="action_page.php">
   <div class="form-group">
     <label for="exampleInputEmail1">Username</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
@@ -12,5 +15,12 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-  </div>
 
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'login-component'
+}
+</script>

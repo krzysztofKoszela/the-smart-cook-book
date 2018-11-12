@@ -1,11 +1,13 @@
 <template>
   <div>
-  menu
+
+container
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'menu-component'
+  name: 'container-component'
 }
 </script>
