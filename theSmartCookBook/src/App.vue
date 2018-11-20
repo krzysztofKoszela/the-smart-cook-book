@@ -1,26 +1,24 @@
 <template>
   <div id="app">
-  <div>fdsfsdfds</div>
  <menu-component></menu-component>
  <recipe-component></recipe-component>
-
- <button id="show-modal" @click="showRegisterModal = true">Register</button>
-  <register-component v-if="showRegisterModal" @close="showRegisterModal = false">
-  </register-component>
-
  <search-component></search-component>
  <container-component></container-component>
     <router-view/>
+
+
+ <register-component>
+  </register-component>
+
   </div>
 </template>
 
 <script>
 import menuLabel from './components/menuLabel'
 import recipe from './components/recipe'
-import register from './components/register'
 import search from './components/search'
 import container from './components/container'
-
+import register from './components/register'
 export default {
   name: 'App',
   components:{
@@ -30,12 +28,7 @@ export default {
     'search-component' : search,
     'container-component' :container
 
-  },
-  data () {
-      return {
-        showRegisterModal: false
-      }
-}
+  }
 }
 </script>
 

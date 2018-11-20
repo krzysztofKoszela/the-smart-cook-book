@@ -1,7 +1,7 @@
 <template>
   <div>
 
-  <form action="action_page.php">
+
   <div class="form-group">
     <label for="exampleInputEmail1">Username</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
@@ -13,14 +13,23 @@
    <div class="form-group">
        <label for="exampleInputPassword1">Nie pamietasz hasła?</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+  <button type="submit" class="btn btn-primary">Zaloguj</button>
+
+
+  <!-- Use any element to open/show the overlay navigation menu -->
+<button @click="openNav">Rejestracja</button>
 
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'login-component'
+  name: 'login-component',
+  methods: {
+    openNav: function() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+  }
 }
 </script>

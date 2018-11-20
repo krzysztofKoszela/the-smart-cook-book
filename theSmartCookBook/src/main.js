@@ -9,10 +9,14 @@ import register from './components/register'
 import search from './components/search'
 import container from './components/container'
 import router from './router'
-import BootstrapVue from 'bootstrap-vue';
+import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
+
+// Import the styles directly. (Or you could add them via script tags.)
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+
 Vue.use(BootstrapVue);
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 
 
 
