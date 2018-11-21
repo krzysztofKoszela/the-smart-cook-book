@@ -1,4 +1,5 @@
 <template>
+<div class="recipe">
   <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
   <div class="card-header">Header</div>
   <div class="card-body">
@@ -12,12 +13,14 @@
     <p class="card-text">dodaj do książki</p>
   </div>
 </div>
+</div>
 </template>
 
 <script>
 export default {
   name: 'recipe-component'
 }
+
 </script>
 <style>
 img{
@@ -25,7 +28,13 @@ img{
   height: 40px;
 }
 .recipe{
-  background: royalblue;
+  background: burlywood;
+
+
+}
+
+.card{
+
 }
 </style>
 

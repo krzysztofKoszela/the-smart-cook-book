@@ -1,13 +1,13 @@
 <template>
   <div id="app">
- <menu-component></menu-component>
+
+  <menu-component></menu-component>
+
 
  <container-component></container-component>
-    <router-view/>
-
-
  <register-component>
   </register-component>
+   <router-view/>
 
   </div>
 </template>
