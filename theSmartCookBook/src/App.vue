@@ -2,7 +2,6 @@
   <div id="app">
  <menu-component></menu-component>
  <recipe-component></recipe-component>
- <search-component></search-component>
  <container-component></container-component>
     <router-view/>
 
