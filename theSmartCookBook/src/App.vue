@@ -1,7 +1,7 @@
 <template>
   <div id="app">
  <menu-component></menu-component>
- <recipe-component></recipe-component>
+
  <container-component></container-component>
     <router-view/>
 
@@ -14,7 +14,6 @@
 
 <script>
 import menuLabel from './components/menuLabel'
-import recipe from './components/recipe'
 import search from './components/search'
 import container from './components/container'
 import register from './components/register'
@@ -22,7 +21,6 @@ export default {
   name: 'App',
   components:{
     'menu-component' : menuLabel,
-    'recipe-component' : recipe,
     'register-component' : register,
     'search-component' : search,
     'container-component' :container
