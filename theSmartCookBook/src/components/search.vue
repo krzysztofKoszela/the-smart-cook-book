@@ -42,11 +42,8 @@ export default {
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 <style>
 .multiselect{
-width: 40%;
-
-}
-.multiselect__select{
-
+  width: 40%;
+  position: fixed;
 }
 </style>
 

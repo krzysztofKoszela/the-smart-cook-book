@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="log">
 
 
   <div class="form-group">
@@ -33,3 +33,7 @@ export default {
   }
 }
 </script>
+<style>
+
+</style>
+
