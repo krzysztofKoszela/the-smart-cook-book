@@ -20,7 +20,9 @@ export default {
       options: [
         { name: 'Vue.js', code: 'vu' },
         { name: 'Javascript', code: 'js' },
-        { name: 'Open Source', code: 'os' }
+        { name: 'Open Soursce', code: 'oss' },
+        { name: 'Open Sourcsse', code: 'osss' },
+        { name: 'Open Sourcsse', code: 'osss' }
       ]
     }
   },
@@ -28,7 +30,7 @@ export default {
     addTag (newTag) {
       const tag = {
         name: newTag,
-        code: newTag.substring(0, 2) + Math.floor((Math.random() * 10000000))
+        code: newTag.substring(0, 5) + Math.floor((Math.random() * 10000000))
       }
       this.options.push(tag)
       this.value.push(tag)
@@ -41,6 +43,10 @@ export default {
 <style>
 .multiselect{
 width: 40%;
+
+}
+.multiselect__select{
+
 }
 </style>
 
