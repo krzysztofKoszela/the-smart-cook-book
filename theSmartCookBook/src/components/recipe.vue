@@ -29,12 +29,8 @@ img{
 }
 .recipe{
   background: burlywood;
-
-
-}
-
-.card{
-
+position: relative;
+z-index: -1;
 }
 </style>
 
