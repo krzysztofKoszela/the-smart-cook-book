@@ -1,16 +1,20 @@
 <template>
-  <div class="container">
+<div>
 
 
-<recipe-component></recipe-component>
-<recipe-component></recipe-component>
-<recipe-component></recipe-component>
-<recipe-component></recipe-component>
-<recipe-component></recipe-component>
-<recipe-component></recipe-component>
-<recipe-component></recipe-component>
 
+  <div class="container col-md-8">
+<recipe-component></recipe-component>
+<recipe-component></recipe-component>
+<recipe-component></recipe-component>
+<recipe-component></recipe-component>
+<recipe-component></recipe-component>
+<recipe-component></recipe-component>
+<recipe-component></recipe-component>
   </div>
+
+
+</div>
 </template>
 
 <script>
@@ -27,8 +31,6 @@ export default {
 .container{
 position: relative;
   top: 250px;
-  left: 100px;
-  right: 100px;
   bottom: 0px;
   z-index: -1;
 }

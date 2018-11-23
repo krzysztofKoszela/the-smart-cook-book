@@ -2,10 +2,10 @@
 <div class="menu-nav">
 
   <div class="col-md-2">
-  <a href="#homePage"><i class="fa fa-home"></i></a>
+  <a href="#homePage"><i class="fa fa-home" ></i></a>
   </div>
-  <div class="col-md-6 col-center-block">
-  <search-component class="menu-center"></search-component>
+  <div class="col-md-6 c">
+  <search-component class="col-md-12"></search-component>
   </div>
 
 <div class="col-md-4">
@@ -35,6 +35,10 @@ export default {
 </script>
 
 <style>
+.fa-home.fa{
+  color: white;
+  font-size: 50px;
+}
 .menu-nav {
   background-color: #333;
 position: fixed;
@@ -47,7 +51,11 @@ height: 100px;
 
 }
 .c{
-
+ /*float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
 }
 .r{
 
