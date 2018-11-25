@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <div class="container col-md-8">
+  <div class="container col-md-10">
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
