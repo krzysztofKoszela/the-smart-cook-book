@@ -2,12 +2,12 @@
   <div id="app">
 
   <menu-component></menu-component>
- <container-component></container-component>
+<container-component>
  <register-component>
   </register-component>
   <new-recipe-component></new-recipe-component>
    <router-view/>
-
+</container-component>
   </div>
 </template>
 
@@ -44,3 +44,5 @@ export default {
 
 
 </style>
+
+<style src="./../dist/static/css/darkTheme.css"></style>

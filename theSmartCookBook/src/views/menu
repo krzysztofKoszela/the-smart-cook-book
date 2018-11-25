@@ -10,10 +10,24 @@
 
 <div class="col-md-4">
 
+
+
+
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Moja książka</a>
+    <a class="dropdown-item" @click="openRecipeNav" href="#">Dodaj przepis</a>
+  </div>
+</div>
+<!--
 <b-dropdown text="Moje konto">
-    <b-dropdown-item>Moja książka</b-dropdown-item>
-    <b-dropdown-item @click="openRecipeNav">Dodaj przepis</b-dropdown-item>
-  </b-dropdown>
+    <b-dropdown-item variant="purple">Moja książka</b-dropdown-item>
+    <b-dropdown-item @click="openRecipeNav" variant="purple">Dodaj przepis</b-dropdown-item>
+  </b-dropdown>-->
 
   <b-dropdown text="Zaloguj">
      <ul>
@@ -56,10 +70,13 @@ position: fixed;
   top: 0;
   width: 100%;
 display: flex;
-height: 60px;
+height: 100px;
 z-index: 1;
 }
 
+.dropdown-menu{
+  position: relative;
+}
 </style>
 
 

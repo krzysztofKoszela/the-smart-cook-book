@@ -1,8 +1,6 @@
 <template>
-<div class="container">
+<div class="container col-md-10">
 
-
-  <div class="container col-md-10">
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
@@ -10,7 +8,6 @@
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
-  </div>
 
  <!--<own-book-component></own-book-component>-->
 
