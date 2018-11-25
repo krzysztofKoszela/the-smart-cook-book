@@ -2,11 +2,10 @@
   <div id="app">
 
   <menu-component></menu-component>
-
-
  <container-component></container-component>
  <register-component>
   </register-component>
+  <new-recipe-component></new-recipe-component>
    <router-view/>
 
   </div>
@@ -17,13 +16,16 @@ import menuLabel from './components/menuLabel'
 import search from './components/search'
 import container from './components/container'
 import register from './components/register'
+import newRecipe from './components/newRecipe'
+
 export default {
   name: 'App',
   components:{
     'menu-component' : menuLabel,
     'register-component' : register,
     'search-component' : search,
-    'container-component' :container
+    'container-component' :container,
+    'new-recipe-component' : newRecipe
 
   }
 }

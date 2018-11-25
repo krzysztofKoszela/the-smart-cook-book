@@ -9,11 +9,19 @@
   </div>
 
 <div class="col-md-4">
+
+<b-dropdown text="Moje konto">
+    <b-dropdown-item>Moja książka</b-dropdown-item>
+    <b-dropdown-item @click="openRecipeNav">Dodaj przepis</b-dropdown-item>
+  </b-dropdown>
+
   <b-dropdown text="Zaloguj">
      <ul>
   <login-component></login-component>
  </ul>
   </b-dropdown>
+
+
   <a href="#contakt">Kontakt</a>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,6 +38,11 @@ export default {
   components: {
     "login-component": login,
     "search-component": search
+},
+methods: {
+    openRecipeNav: function() {
+      document.getElementById("myNavv").style.width = "100%";
+    }
   }
 };
 </script>
@@ -46,6 +59,7 @@ position: fixed;
   width: 100%;
 display: flex;
 height: 100px;
+z-index: 1;
 }
 .l{
 

@@ -10,6 +10,7 @@ import search from './components/search'
 import container from './components/container'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
+import newRecipe from './components/newRecipe'
 
 // Import the styles directly. (Or you could add them via script tags.)
 import 'bootstrap/dist/css/bootstrap.css';
