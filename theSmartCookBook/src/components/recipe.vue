@@ -47,6 +47,8 @@ Dodać plasterki cytryny, całość skropić pozostałą oliwąOdciąć skórkę
 Ugotować ryż w osolonej wodzie zgodnie z instrukcją na opakowaniu. Odcedzić, następnie wysypać do formy żaroodpornej, wymieszać z 1 łyżką oliwy i rozłożyć po całej powierzchni naczynia.
 Na wierzchu położyć filety łososia, obłożyć połówkami pomidorków koktajlowych, posypać chili i listkami bazylii (lub ziół lub natki).
 Dodać plasterki cytryny, całość skropić pozostałą oliwą  i wstawić do piekarnika nagrzanego do 200 stopni C. Piec przez 15 minut.
+  Odciąć skórkę z łososia, pokroić na 4 kawałki. Opłukać, osuszyć i włożyć do miski. Doprawić solą, pieprzem, mieloną papryką i kurkumą (lub curry) oraz suszonym oregano. Dodać miód, sos sojowy, 2 łyżki oliwy oraz 2 łyżki soku z cytryny, wszystko wymieszać.
+Ugotować ryż
     </p>
 </div>
 </div>
@@ -68,9 +70,9 @@ border-radius: 25px;
 .recipe {
  border-radius: 15px 50px 30px 5px;
   /*position: relative;*/
+  overflow:hidden;
   z-index: -1;
   display: flex;
-  height: 400px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -81,6 +83,7 @@ border-radius: 25px;
   color: white;
   font-size: 30px;
 }
+/*
 .recipe-prepare{
   overflow:hidden;
   overflow-y:scroll;
@@ -90,6 +93,6 @@ border-radius: 25px;
  overflow:hidden;
   overflow-y:scroll;
   height:200px
-}
+}*/
 </style>
 <style src="./../../dist/static/css/lightTheme.css"></style>
