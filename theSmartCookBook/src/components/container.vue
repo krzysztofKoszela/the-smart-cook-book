@@ -1,8 +1,6 @@
 <template>
 <div>
 
-
-
   <div class="container col-md-8">
 <recipe-component></recipe-component>
 <recipe-component></recipe-component>
@@ -30,7 +28,7 @@ export default {
 <style>
 .container{
 position: relative;
-  top: 250px;
+  top: 50px;
   bottom: 0px;
   z-index: -1;
 }
