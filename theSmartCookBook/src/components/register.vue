@@ -6,20 +6,20 @@
   <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
   <!-- Overlay content -->
   <div class="overlay-content">
-    <form>
+    <form class="col-center-block col-md-4">
     <div class="form-group">
-    <label for="exampleInputPassword1">Username</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Username">
+    <label for="exampleInputPassword1">Nazwa użytkownika</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
     <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputPassword1">Hasło</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="exampleInputEmail1">Adres e-mail</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Zarejestruj</button>
 </form>
   </div>
 </div>
@@ -38,6 +38,12 @@ export default {
 </script>
 
 <style>
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: auto; margin-right: auto; */
+}
 /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
