@@ -4,11 +4,11 @@
   <div class="col-md-2">
   <a href="#homePage"><i class="fa fa-home" ></i></a>
   </div>
-  <div class="col-md-6 c">
+  <div class="col-md-8 c">
   <search-component class="col-md-12"></search-component>
   </div>
 
-<div class="col-md-4">
+<div class="col-md-2">
 
 <b-dropdown text="Moje konto">
     <b-dropdown-item>Moja książka</b-dropdown-item>
@@ -56,8 +56,9 @@ position: fixed;
   top: 0;
   width: 100%;
 display: flex;
-height: 60px;
+height: 80px;
 z-index: 1;
+padding-top: 15px;
 }
 
 </style>

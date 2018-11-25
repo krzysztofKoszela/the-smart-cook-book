@@ -29,8 +29,7 @@ export default {
 <style>
 .container{
 position: relative;
-  top: 100px;
-  bottom: 0px;
+  top: 50px;
   z-index: -1;
 }
 

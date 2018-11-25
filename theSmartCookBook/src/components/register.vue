@@ -49,8 +49,8 @@ export default {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: absolute; /* Stay in place */
+  z-index: 100; /* Sit on top */
   left: 0;
   top: 0;
   background-color: rgb(0, 0, 0); /* Black fallback color */

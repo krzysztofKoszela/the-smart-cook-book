@@ -4,7 +4,7 @@
      <img class="col-md-3" src="https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/styles/kafelki/public/losos_pieczony_na_ryzu_00.jpg?itok=qlUlw3hf">
   <div class="col-md-9">
     <div class="row">
-<h5 class="col-center-block">Zupa śledziowa</h5>
+<p class="col-center-block">Zupa śledziowa</p>
   </div>
 <div class="row">
 <div class="col-md-3">
@@ -39,6 +39,7 @@ przyprawy: 2 łyżeczki mielonej papryki, 1/2 łyżeczki mielonej kurkumy lub cu
 </div>
 
 <div class="col-md-6">
+  <p>Sposób przygotowania:</p>
     <p class="recipe-prepare">
 Odciąć skórkę z łososia, pokroić na 4 kawałki. Opłukać, osuszyć i włożyć do miski. Doprawić solą, pieprzem, mieloną papryką i kurkumą (lub curry) oraz suszonym oregano. Dodać miód, sos sojowy, 2 łyżki oliwy oraz 2 łyżki soku z cytryny, wszystko wymieszać.
 Ugotować ryż w osolonej wodzie zgodnie z instrukcją na opakowaniu. Odcedzić, następnie wysypać do formy żaroodpornej, wymieszać z 1 łyżką oliwy i rozłożyć po całej powierzchni naczynia.
@@ -69,7 +70,7 @@ border-radius: 25px;
 }
 .recipe {
  border-radius: 15px 50px 30px 5px;
-  /*position: relative;*/
+  position: relative;
   overflow:hidden;
   z-index: -1;
   display: flex;
@@ -83,16 +84,12 @@ border-radius: 25px;
   color: white;
   font-size: 30px;
 }
-/*
+
 .recipe-prepare{
-  overflow:hidden;
-  overflow-y:scroll;
-  height:200px
+  text-align: justify;
 }
 .ingredients{
- overflow:hidden;
-  overflow-y:scroll;
-  height:200px
-}*/
+text-align: justify;
+}
 </style>
 <style src="./../../dist/static/css/lightTheme.css"></style>
