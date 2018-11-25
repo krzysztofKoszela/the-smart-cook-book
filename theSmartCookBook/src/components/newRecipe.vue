@@ -1,34 +1,54 @@
 <template>
-  <div>
 <!-- The overlay -->
 <div id="myNavv" class="overlay">
 <!-- Button to close the overlay navigation -->
   <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
   <!-- Overlay content -->
   <div class="overlay-content">
-    <form>
-    <div class="form-group">
-    <label for="exampleInputPassword1">Userdsadasdadaname</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Username">
+<h2> Witaj w formularzu wprowadzania nowego przepisu </h2>
+
+    <form class="col-md-6 col-center-block">
+      <label for="exampleTextarea">Nazwa dania</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+<label for="exampleTextarea">Składniki</label>
+    <search-component class="search-cmpt col-md-12"></search-component>
+
+ <div class="form-group">
+    <label for="exampleTextarea">Sposób przygotowania</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
   </div>
-    <div class="form-group">
-    <label for="exampleInputPassword1">Passadasdasdasword</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
+
+<h2> Poziom trudności </h2>
+<label class="radio-inline"><input type="radio" name="optradio">Łatwy</label>
+<label class="radio-inline"><input type="radio" name="optradio">Średni</label>
+<label class="radio-inline"><input type="radio" name="optradio">Trudny</label>
+
+
+<div>
+  <label for="example-number-input" class="col-2 col-form-label">Czas przygotowania</label>
+</div>
+    <input class="form-control col-md-1 col-center-block" type="number" value="10" id="example-number-input">
+
+
   <div class="form-group">
-    <label for="exampleInputEmail1">Email adadsaaadsaddress</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="exampleInputFile">Zdjęcie dania</label>
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
   </div>
+
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
   </div>
 </div>
-  </div>
 </template>
 
 <script>
+import search from  "./search";
+
 export default {
   name: "new-recipe-component",
+   components: {
+    "search-component": search
+},
   methods: {
     closeNav: function() {
       document.getElementById("myNavv").style.width = "0%";
@@ -38,6 +58,17 @@ export default {
 </script>
 
 <style>
+/*wysrodkowanie diva*/
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: auto; margin-right: auto; */
+}
+
+.search-cmpt{
+  position: relative;
+}
 /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
@@ -47,8 +78,8 @@ export default {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  background-color: rgb(0, 0, 0); /* Black fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+  background-color: rgb(100, 0, 0); /* Black fallback color */
+  background-color: rgba(100, 0, 0, 0.9); /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
